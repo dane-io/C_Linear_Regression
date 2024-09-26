@@ -1,2 +1,6 @@
 # C_Linear_Regression
-Least-squares linear regression implemented in C (specifically for embedded)
+This code is a C implementation for linear regression using least-squares using LU decomposition. I wrote this to use for embedded systems (STM32), but it should be fine for any C compiler that supports VLA in the function paramaters. The main limitations for this code is the number of observations and features. Currently, the number of observations is stored as unsigned 16 bit and features as unsigned 8 bit. If you wanted more features, you can make these larger data types (note, there's a sneaky int16_t somewhere in the code that you'll need to change also).
+
+As always, use at your own risk.
+
+Dane Thompson
