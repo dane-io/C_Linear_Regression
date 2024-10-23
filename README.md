@@ -5,4 +5,4 @@ I've added a linear_regression_sample_main.c file to show how to implement the f
 
 As always, use at your own risk.
 
-Dane Thompson
+Dane
